@@ -6,7 +6,11 @@
     "npm": "7.20.6"
   },
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "postinstall": "vite build",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "devDependencies": {
     "vite": "^2.3.0"
